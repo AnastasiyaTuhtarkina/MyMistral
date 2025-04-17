@@ -1,10 +1,6 @@
 import fitz # PyMuPDF
 import os
-import requests
-import re
-from pathlib import Path
 from mistralai import Mistral
-from mistralai import DocumentURLChunk, ImageURLChunk, TextChunk
 from dotenv import load_dotenv
 
 load_dotenv()
